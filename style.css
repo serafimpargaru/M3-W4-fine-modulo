@@ -1,0 +1,21 @@
+* {
+    background-color: #141414;
+}
+
+.netflix-logo {
+    width: 100px;
+}
+
+.search-bell-button {
+    color: white;
+    font-size: 25px;
+}
+
+.account-img {
+    width: 35px;
+    border-radius: 5px;
+}
+
+.main {
+    height: 50vh;
+}
