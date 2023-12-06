@@ -1,0 +1,32 @@
+.next-prev-button {
+  width: 37px !important;
+}
+
+.next-prev-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.row .film-card:hover {
+  transform: scale(1.2);
+  z-index: 50;
+  transition: 0.2s;
+}
+
+.row .film-card:first-of-type:hover {
+  -moz-transform: scale(1.2) translate(25px, 0px);
+  -webkit-transform: scale(1.2) translate(25px, 0px);
+  -o-transform: scale(1.2) translate(25px, 0px);
+  -ms-transform: scale(1.2) translate(25px, 0px);
+  transform: scale(1.2) translate(25px, 0px);
+  transition: 0.2s;
+}
+
+.row .film-card:last-of-type:hover {
+  -moz-transform: scale(1.2) translate(-25px, 0px);
+  -webkit-transform: scale(1.2) translate(-25px, 0px);
+  -o-transform: scale(1.2) translate(-25px, 0px);
+  -ms-transform: scale(1.2) translate(-25px, 0px);
+  transform: scale(1.2) translate(-25px, 0px);
+  transition: 0.2 s;
+}
