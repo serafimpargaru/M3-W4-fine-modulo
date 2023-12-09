@@ -6,6 +6,10 @@
     width: 100px;
 }
 
+.nav-item:hover {
+    font-weight: bold;
+}
+
 .search-bell-button {
     color: white;
     font-size: 25px;
@@ -18,4 +22,8 @@
 
 .main {
     height: 50vh;
+}
+
+.item:hover {
+    font-weight: bold;
 }
