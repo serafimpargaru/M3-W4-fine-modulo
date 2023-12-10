@@ -27,3 +27,18 @@
 .item:hover {
     font-weight: bold;
 }
+
+/* ------------------------------------- */
+
+@media screen and (max-width:815px) {
+
+    .footer-content-flex {
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-list-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+}
